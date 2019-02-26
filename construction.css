@@ -1,0 +1,95 @@
+/*
+construction.css
+---------
+ 
+Par Sébastien Louis
+*/
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url('police/cac_champagne-webfont.eot');
+    src: url('police/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/cac_champagne-webfont.woff') format('woff'),
+         url('police/cac_champagne-webfont.ttf') format('truetype'),
+         url('police/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+h1
+{
+    color: black;
+    font-size: 40px; /* Titres de 40 pixels */
+    text-align: center;
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    margin-top: 23%;
+    text-shadow: 2px 2px 0px #AAA; 
+    opacity: 0.7;
+}
+
+    
+a /* Liens par défaut (non survolés) */
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+	font-style: italic;
+	font-family: 'cac_champagneregular', Arial, serif;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+	font-size: 20px;
+	text-decoration: underline;
+	color: green;
+	font-style: italic;
+	font-family: 'cac_champagneregular', Arial, serif;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+	font-size: 20px;
+	font-family: 'cac_champagneregular', Arial, serif;
+	color: #AAA; /* Appliquer une couleur grise */
+	text-decoration: none;
+}
+
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */
+}
+
+.introduction
+{
+	color: green;
+}
+
+.mot
+{
+	color: black;
+}
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.barre
+{
+    text-decoration: line-through;
+}
+
+.ligne_dessus
+{
+    text-decoration: overline;
+}
+
+body
+{
+	background: url(fond.jpg);
+    color: black; /* Le texte de la page sera noir */
+}
+nav
+{
+	text-align: center;
+	margin-top: 20%;
+
+}
